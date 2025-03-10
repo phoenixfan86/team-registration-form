@@ -30,7 +30,7 @@ html{
 }
 
 .badge{
-  @apply text-blue-800 text-[10px] uppercase px-[10px] py-[2px] rounded-lg hover:bg-blue-200 transition-all
+  @apply text-blue-800 text-[10px] uppercase px-[8px] py-[2px] rounded-lg hover:bg-blue-200 transition-all
 }
 
 .badge-1{

@@ -1,10 +1,13 @@
-import { useState } from 'react'
+import Newmember from './components/Newmember'
+
 
 function App() {
   return (
-    <div>
-      <p>Welcome to Luna Edge technical interview</p>
-    </div>
+    <section className="">
+      <div className="w-full h-screen flex items-center justify-center bg-zinc-200">
+        <Newmember />
+      </div>
+    </section>
   )
 }
 

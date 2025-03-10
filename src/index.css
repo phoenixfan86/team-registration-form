@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+html{
+  font-family: "Poppins", sans-serif;
+}
+
+
+.label{
+  @apply text-sm font-bold text-zinc-700
+}
+
+.input-item{
+  @apply w-full flex flex-col gap-2
+}
+
+.input-field{
+  @apply w-full h-10 border-1 hover:border-1 rounded-lg text-sm text-zinc-800 placeholder:text-sm py-3 px-4 transition
+}
+
+.select{
+  @apply w-full h-30 border-1 hover:border-1 rounded-lg py-3 px-4 transition overflow-hidden
+}
+
+.btn-reset{
+  @apply  text-zinc-800 hover:bg-gray-500 px-4 py-2 rounded transition-all
+}
+
+.btn-submit{
+  @apply bg-violet-900 hover:bg-violet-700 hover:scale-95 text-white px-4 py-2 rounded
+}
+
+.badge{
+  @apply text-blue-800 text-[10px] uppercase px-[10px] py-[2px] rounded-lg hover:bg-blue-200 transition-all
+}
+
+.badge-1{
+  @apply text-blue-800 text-sm uppercase px-[10px] py-[2px] rounded-lg hover:bg-blue-200 transition-all
+}
+
+.badge-2{
+  @apply text-zinc-800 text-sm uppercase px-[10px] py-[2px] rounded-lg hover:bg-blue-200 transition-all
+}
+

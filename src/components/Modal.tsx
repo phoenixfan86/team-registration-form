@@ -7,7 +7,7 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = ({ onClose, children }) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black/80">
       <div className=" w-105 max-w-lg relative bg-white ring-1 ring-zinc-400 shadow-zinc-400 rounded-lg p-4 ">
         <h3 className="text-lg text-center text-zinc-700 font-bold tracking-widest">Combat team</h3>
         <button

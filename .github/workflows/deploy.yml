@@ -22,7 +22,7 @@ jobs:
       - name: Installing dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Збірка проєкту
+      - name: Build project
         run: yarn build
 
       - name: Deploy to GitHub Pages
@@ -30,5 +30,4 @@ jobs:
         with:
           branch: gh-pages 
           folder: dist 
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.GH_PAGES_TOKEN }}
+          token: ${{ secrets.GH_PAGES_TOKEN }}
